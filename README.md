@@ -5,7 +5,7 @@
 [![Paper](http://img.shields.io/badge/paper-arxiv.2406.18572-B31B1B.svg)](https://arxiv.org/abs/2406.18572)
 [![Conference](https://img.shields.io/badge/ICML-2024-blue)]()
 
-![ALT TEXT](/figures/fig1.png)
+![ALT TEXT](/figures/GeoReasoner.png)
 </div>
 
 ## Release
