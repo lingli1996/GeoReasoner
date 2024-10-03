@@ -10,7 +10,7 @@
 
 ## Release
 - Data
-    - For Stage 1 (Reasoning Tuning Phase), We have released the SFT data on [![Hugging Face](https://img.shields.io/badge/HuggingFace-ling0821/GeoReasoner_SFT-FFD21F)](https://huggingface.co/datasets/ling0821/GeoReasoner_SFT)
+    - For Stage 1 (Reasoning Tuning Phase), We have released the SFT data on [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_SFT-FFD21F)](https://huggingface.co/datasets/ling0821/GeoReasoner_SFT).
     - For Stage 2 (Location Tuning Phase), due to copyright issues with Google Street View images, we are unable to directly provide the corresponding data. However, you can retrieve the relevant data by using the official API provided by [Google Street View](https://www.google.com/streetview).
 
 - Code
