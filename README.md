@@ -14,16 +14,23 @@
     - For Stage 2 (Location Tuning Phase), due to copyright issues with Google Street View images, we are unable to directly provide the corresponding data. However, you can retrieve the relevant data by using the official API provided by [Google Street View](https://www.google.com/streetview).
 
 - Code
-    - Coming Soon
+    - loc_clip: the codebase for computing locatability of street view images.
+    - train: a collection of train and inference scripts of GeoReasoner models.
 
 ## Usage and License Notices
 This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. It is important to emphasize that the collected data from [GeoGuessr]( https://www.geoguessr.com) and [Tuxun](https://tuxun.fun) cannot be used for commercial purposes.
 
 ## Description
+- For computing locatability of street view images
+  - Follow the [MaskFormer instruction](https://github.com/facebookresearch/MaskFormer/blob/main/GETTING_STARTED.md) to ensure that the Inference Demo with Pre-trained Models works correctly.
+  - Obtain the percentage for each category from the segmentation results.
+  - Calculate the locatability value by referring to the example in the script `loc_clip/localizable_comput.py`.
 
+- For the inference of GeoReasoner models
+  - Coming Soon
 
 ## Acknowledgments
-
+We are very grateful for the source codes and outstanding contributions from [MaskFormer](https://github.com/facebookresearch/MaskFormer), [Sentence-BERT](https://github.com/UKPLab/sentence-transformers) and [Qwen-VL](https://github.com/QwenLM/Qwen-VL).
 
 ## Citation
 ```
