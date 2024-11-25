@@ -24,7 +24,7 @@ This project utilizes certain datasets and checkpoints that are subject to their
 - For computing locatability of street view images
   - Follow the [MaskFormer instruction](https://github.com/facebookresearch/MaskFormer/blob/main/GETTING_STARTED.md) to ensure that the Inference Demo with Pre-trained Models works correctly.
   - Obtain the percentage for each category from the segmentation results.
-  - Calculate the locatability value by referring to the example in the script `loc_clip/localizable_comput.py`.
+  - Calculate the locatability value by referring to the example in the script `loc_clip/locatability_comput.py`.
 
 - For the inference of GeoReasoner models
   - Coming Soon
