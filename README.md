@@ -27,7 +27,10 @@ This project utilizes certain datasets and checkpoints that are subject to their
   - Calculate the locatability value by referring to the example in the script `loc_clip/locatability_comput.py`.
 
 - For the inference of GeoReasoner models
-  - Coming Soon
+  - The pre-trained LVLM weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-Qwen_VL_Chat-FFD21F)](https://huggingface.co/Qwen/Qwen-VL-Chat)
+  - Our XXX are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling0821/GeoReasoner_Models)
+  - Inference steps
+    - Coming soon
 
 ## Acknowledgments
 We are very grateful for the source codes and outstanding contributions from [MaskFormer](https://github.com/facebookresearch/MaskFormer), [Sentence-BERT](https://github.com/UKPLab/sentence-transformers) and [Qwen-VL](https://github.com/QwenLM/Qwen-VL).
