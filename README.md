@@ -28,7 +28,7 @@ This project utilizes certain datasets and checkpoints that are subject to their
 
 - For the inference of GeoReasoner models
   - The pre-trained LVLM weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-Qwen_VL_Chat-FFD21F)](https://huggingface.co/Qwen/Qwen-VL-Chat)
-  - Our XXX are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling0821/GeoReasoner_Models)
+  - Our LoRA weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling0821/GeoReasoner_Models)
   - Inference steps
     - Coming soon
 
