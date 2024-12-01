@@ -31,12 +31,12 @@ This project utilizes certain datasets and checkpoints that are subject to their
   - Our LoRA weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling0821/GeoReasoner_Models)
     - Inference steps
       ```
-          cd GeoReasoner
-          git clone https://github.com/QwenLM/Qwen-VL.git
-          cd Qwen-VL
-          pip install -r requirements.txt
-          mkdir Qwen-VL-Models 
-          mkdir LoRA
+      cd GeoReasoner
+      git clone https://github.com/QwenLM/Qwen-VL.git
+      cd Qwen-VL
+      pip install -r requirements.txt
+      mkdir Qwen-VL-Models 
+      mkdir LoRA
       ```
       - Then download the pre-trained LVLM weights into the `Qwen-VL-Models` folder and the LoRA weights into the `LoRA` folder.
       ```Python
@@ -45,13 +45,13 @@ This project utilizes certain datasets and checkpoints that are subject to their
       ```
     - Training steps (Reasoning Tuning Phase)
       ```
-          cd GeoReasoner
-          git clone https://github.com/QwenLM/Qwen-VL.git
-          cd Qwen-VL
-          pip install -r requirements.txt
-          mkdir Qwen-VL-Models 
-          mkdir LoRA
-          mkdir Dataset
+      cd GeoReasoner
+      git clone https://github.com/QwenLM/Qwen-VL.git
+      cd Qwen-VL
+      pip install -r requirements.txt
+      mkdir Qwen-VL-Models 
+      mkdir LoRA
+      mkdir Dataset
       ```
       - Then download the pre-trained LVLM weights into the `Qwen-VL-Models` folder and the SFT data into the `Dataset` folder.
       ```
