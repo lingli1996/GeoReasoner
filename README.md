@@ -15,7 +15,7 @@
 
 - Code
     - loc_clip: the codebase for computing locatability of street view images.
-    - train: a collection of train and inference scripts of GeoReasoner models.
+    - GeoReasoner: a collection of train and inference scripts of GeoReasoner models.
 
 ## Usage and License Notices
 This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. It is important to emphasize that the collected data from [GeoGuessr]( https://www.geoguessr.com) and [Tuxun](https://tuxun.fun) cannot be used for commercial purposes.
@@ -29,8 +29,37 @@ This project utilizes certain datasets and checkpoints that are subject to their
 - For the inference of GeoReasoner models
   - The pre-trained LVLM weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-Qwen_VL_Chat-FFD21F)](https://huggingface.co/Qwen/Qwen-VL-Chat)
   - Our LoRA weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling0821/GeoReasoner_Models)
-  - Inference steps
-    - Coming soon
+    - Inference steps
+      ```
+          cd GeoReasoner
+          git clone https://github.com/QwenLM/Qwen-VL.git
+          cd Qwen-VL
+          pip install -r requirements.txt
+          mkdir Qwen-VL-Models 
+          mkdir LoRA
+      ```
+      - Then download the pre-trained LVLM weights into the `Qwen-VL-Models` folder and the LoRA weights into the `LoRA` folder.
+      ```Python
+      python infer.py # with the test image
+      # Due to the inherent randomness in LVLM generation, the generated reasons may not always be consistent.
+      ```
+    - Training steps (Reasoning Tuning Phase)
+      ```
+          cd GeoReasoner
+          git clone https://github.com/QwenLM/Qwen-VL.git
+          cd Qwen-VL
+          pip install -r requirements.txt
+          mkdir Qwen-VL-Models 
+          mkdir LoRA
+          mkdir Dataset
+      ```
+      - Then download the pre-trained LVLM weights into the `Qwen-VL-Models` folder and the SFT data into the `Dataset` folder.
+      ```
+      mv finetune_lora_reason.sh Qwen-VL/finetune
+      cd Qwen-VL
+      sh finetune/finetune_lora_reason.sh
+      ```
+
 
 ## Acknowledgments
 We are very grateful for the source codes and outstanding contributions from [MaskFormer](https://github.com/facebookresearch/MaskFormer), [Sentence-BERT](https://github.com/UKPLab/sentence-transformers) and [Qwen-VL](https://github.com/QwenLM/Qwen-VL).
