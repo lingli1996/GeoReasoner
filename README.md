@@ -68,7 +68,7 @@ We are very grateful for the source codes and outstanding contributions from [Ma
 ```
 @inproceedings{li2024georeasoner,
   title={GeoReasoner: Geo-localization with Reasoning in Street Views using a Large Vision-Language Model},
-  author={Li, Ling and Ye, Yu and Jiang, Bingchuan and Zeng, Wei},
+  author={Li, Ling and Ye, Yu and Zeng, Wei},
   booktitle={International Conference on Machine Learning (ICML)},
   year={2024}
 }
