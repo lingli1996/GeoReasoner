@@ -10,7 +10,7 @@
 
 ## Release
 - Data
-    - For Stage 1 (Reasoning Tuning Phase), We have released the SFT data on [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_SFT-FFD21F)](https://huggingface.co/datasets/ling0821/GeoReasoner_SFT).
+    - For Stage 1 (Reasoning Tuning Phase), We have released the SFT data on [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_SFT-FFD21F)](https://huggingface.co/datasets/ling1996/GeoReasoner_SFT).
     - For Stage 2 (Location Tuning Phase), due to copyright issues with Google Street View images, we are unable to directly provide the corresponding data. However, you can retrieve the relevant data by using the official API provided by [Google Street View](https://www.google.com/streetview).
 
 - Code
@@ -28,7 +28,7 @@ This project utilizes certain datasets and checkpoints that are subject to their
 
 - For the inference of GeoReasoner models
   - The pre-trained LVLM weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-Qwen_VL_Chat-FFD21F)](https://huggingface.co/Qwen/Qwen-VL-Chat)
-  - Our LoRA weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling0821/GeoReasoner_Models)
+  - Our LoRA weights are available at [![Hugging Face](https://img.shields.io/badge/HuggingFace-GeoReasoner_Models-FFD21F)](https://huggingface.co/ling1996/GeoReasoner_Models)
     - Inference steps
       ```
       cd GeoReasoner
